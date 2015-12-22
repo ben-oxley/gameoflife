@@ -1577,9 +1577,11 @@ design rules under a new name.</description>
 <contactref element="SV4" pad="4"/>
 <contactref element="SV3" pad="4"/>
 <contactref element="SV2" pad="4"/>
-<wire x1="96.15" y1="49.61" x2="50.02" y2="98.1" width="0" layer="19" extent="1-1"/>
-<wire x1="49.2" y1="4.35" x2="96.15" y2="49.61" width="0" layer="19" extent="1-1"/>
-<wire x1="1.4" y1="50.29" x2="49.2" y2="4.35" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="31"/>
+<wire x1="50.3" y1="45.63" x2="50.02" y2="98.1" width="0" layer="19" extent="1-1"/>
+<wire x1="49.2" y1="4.35" x2="50.3" y2="45.63" width="0" layer="19" extent="1-1"/>
+<wire x1="96.15" y1="49.61" x2="50.3" y2="45.63" width="0" layer="19" extent="1-1"/>
+<wire x1="1.4" y1="50.29" x2="50.3" y2="45.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRST">
 <contactref element="J1" pad="10"/>
@@ -1635,10 +1637,14 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="24"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="J1" pad="1"/>
+<contactref element="SV4" pad="2"/>
+<contactref element="SV2" pad="2"/>
+<wire x1="87.135" y1="52.19" x2="96.15" y2="47.07" width="0" layer="19" extent="1-1"/>
 <wire x1="54.3" y1="52.63" x2="87.135" y2="52.19" width="0" layer="19" extent="1-1"/>
 <wire x1="52.8" y1="54.13" x2="54.3" y2="52.63" width="0" layer="19" extent="1-1"/>
 <wire x1="48.8" y1="54.13" x2="52.8" y2="54.13" width="0" layer="19" extent="1-1"/>
 <wire x1="45.8" y1="47.13" x2="48.8" y2="54.13" width="0" layer="19" extent="1-1"/>
+<wire x1="1.4" y1="47.75" x2="45.8" y2="47.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHIFT_LEFT">
 <contactref element="SV4" pad="5"/>
@@ -1646,7 +1652,10 @@ design rules under a new name.</description>
 <signal name="SHIFT_RIGHT">
 <contactref element="SV2" pad="5"/>
 </signal>
-<signal name="N$9">
+<signal name="N$10">
+<contactref element="IC1" pad="30"/>
+</signal>
+<signal name="+5V">
 <contactref element="Q12" pad="2"/>
 <contactref element="Q9" pad="2"/>
 <contactref element="Q10" pad="2"/>
@@ -1655,6 +1664,8 @@ design rules under a new name.</description>
 <contactref element="Q15" pad="2"/>
 <contactref element="Q14" pad="2"/>
 <contactref element="Q13" pad="2"/>
+<contactref element="SV4" pad="6"/>
+<contactref element="SV2" pad="6"/>
 <wire x1="80.27" y1="77.57" x2="80.39" y2="90.32" width="0" layer="19" extent="1-1"/>
 <wire x1="80.4" y1="65.07" x2="80.27" y2="77.57" width="0" layer="19" extent="1-1"/>
 <wire x1="80.68" y1="52.69" x2="80.4" y2="65.07" width="0" layer="19" extent="1-1"/>
@@ -1662,6 +1673,8 @@ design rules under a new name.</description>
 <wire x1="80.67" y1="27.94" x2="80.55" y2="39.94" width="0" layer="19" extent="1-1"/>
 <wire x1="80.41" y1="15.32" x2="80.67" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="80.28" y1="2.82" x2="80.41" y2="15.32" width="0" layer="19" extent="1-1"/>
+<wire x1="96.15" y1="52.15" x2="80.68" y2="52.69" width="0" layer="19" extent="1-1"/>
+<wire x1="1.4" y1="52.83" x2="80.68" y2="52.69" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
