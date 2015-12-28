@@ -1956,6 +1956,39 @@ reflow soldering</description>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 <rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
 </package>
+<package name="LED5MM/SMD">
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="0.142634375" y1="0.883521875" x2="0.66225" y2="0.583521875" width="0.1016" layer="51" curve="170.055574"/>
+<wire x1="-0.6482125" y1="-0.536265625" x2="-0.1719" y2="-0.811265625" width="0.0508" layer="51" curve="-180"/>
+<wire x1="-0.156465625" y1="0.565459375" x2="-0.518965625" y2="-0.062409375" width="0.1016" layer="51"/>
+<wire x1="0.523853125" y1="0.1438125" x2="0.173853125" y2="-0.462403125" width="0.1016" layer="51"/>
+<circle x="0.011834375" y="0.75696875" radius="0.075" width="0.0508" layer="51"/>
+<smd name="K1" x="0.37744375" y="0.690221875" dx="0.8" dy="0.8" layer="1" rot="R330"/>
+<smd name="A1" x="-0.37255625" y="-0.6088125" dx="0.8" dy="0.8" layer="1" rot="R330"/>
+<rectangle x1="-0.013165625" y1="0.811871875" x2="0.186834375" y2="0.961871875" layer="51" rot="R330"/>
+<rectangle x1="0.0484375" y1="0.638665625" x2="0.0984375" y2="0.688665625" layer="51" rot="R330"/>
+<rectangle x1="-0.12186875" y1="0.531190625" x2="-0.07186875" y2="0.906190625" layer="51" rot="R330"/>
+<rectangle x1="0.555553125" y1="0.32191875" x2="0.755553125" y2="0.62191875" layer="51" rot="R330"/>
+<rectangle x1="-0.21630625" y1="0.3287375" x2="0.68369375" y2="0.5537375" layer="51" rot="R330"/>
+<rectangle x1="-0.700665625" y1="-0.553909375" x2="-0.500665625" y2="-0.053909375" layer="51" rot="R330"/>
+<rectangle x1="-0.094446875" y1="-0.903909375" x2="0.105553125" y2="-0.403909375" layer="51" rot="R330"/>
+<rectangle x1="-0.50380625" y1="-0.47233125" x2="0.04619375" y2="-0.24733125" layer="51" rot="R330"/>
+<rectangle x1="-0.5424125" y1="-0.416409375" x2="-0.4424125" y2="-0.316409375" layer="51" rot="R330"/>
+<rectangle x1="-0.1527" y1="-0.641409375" x2="-0.0527" y2="-0.541409375" layer="51" rot="R330"/>
+<rectangle x1="-0.06005625" y1="0.02395625" x2="0.18994375" y2="0.27395625" layer="21" rot="R330"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -2433,6 +2466,15 @@ Source: www.kingbright.com</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM/0603" package="LED5MM/SMD">
+<connects>
+<connect gate="G$1" pin="A" pad="A A1"/>
+<connect gate="G$1" pin="C" pad="K K1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15603,70 +15645,70 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="IC1" library="Mine" deviceset="STM32F0" device=""/>
-<part name="LED1" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED2" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED3" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED4" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED5" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED6" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED7" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED8" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED9" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED10" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED11" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED12" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED13" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED14" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED15" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED16" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED17" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED18" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED19" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED20" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED21" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED22" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED23" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED24" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED25" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED26" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED27" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED28" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED29" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED30" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED31" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED32" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED33" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED34" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED35" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED36" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED37" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED38" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED39" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED40" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED41" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED42" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED43" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED44" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED45" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED46" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED47" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED48" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED49" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED50" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED51" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED52" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED53" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED54" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED55" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED56" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED57" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED58" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED59" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED60" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED61" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED62" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED63" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED64" library="dtb" deviceset="LED" device="CHIP-LED0603"/>
+<part name="LED1" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED2" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED3" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED4" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED5" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED6" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED7" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED8" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED9" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED10" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED11" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED12" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED13" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED14" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED15" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED16" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED17" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED18" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED19" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED20" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED21" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED22" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED23" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED24" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED25" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED26" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED27" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED28" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED29" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED30" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED31" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED32" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED33" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED34" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED35" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED36" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED37" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED38" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED39" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED40" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED41" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED42" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED43" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED44" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED45" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED46" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED47" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED48" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED49" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED50" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED51" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED52" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED53" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED54" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED55" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED56" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED57" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED58" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED59" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED60" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED61" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED62" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED63" library="dtb" deviceset="LED" device="5MM/0603"/>
+<part name="LED64" library="dtb" deviceset="LED" device="5MM/0603"/>
 <part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="RN1" library="resistor-dil" deviceset="4R-N" device="EXB38V"/>
 <part name="RN2" library="resistor-dil" deviceset="4R-N" device="EXB38V"/>
@@ -15886,10 +15928,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="RN1" gate="C" x="165.1" y="-55.88" rot="R90"/>
 <instance part="RN1" gate="B" x="177.8" y="-55.88" rot="R90"/>
 <instance part="RN1" gate="A" x="190.5" y="-55.88" rot="R90"/>
-<instance part="RN2" gate="A" x="203.2" y="-55.88" rot="R90"/>
-<instance part="RN2" gate="B" x="215.9" y="-55.88" rot="R90"/>
-<instance part="RN2" gate="C" x="228.6" y="-55.88" rot="R90"/>
-<instance part="RN2" gate="D" x="241.3" y="-55.88" rot="R90"/>
+<instance part="RN2" gate="D" x="203.2" y="-55.88" rot="R90"/>
+<instance part="RN2" gate="C" x="215.9" y="-55.88" rot="R90"/>
+<instance part="RN2" gate="B" x="228.6" y="-55.88" rot="R90"/>
+<instance part="RN2" gate="A" x="241.3" y="-55.88" rot="R90"/>
 <instance part="Q2" gate="G$1" x="165.1" y="-68.58"/>
 <instance part="Q3" gate="G$1" x="177.8" y="-68.58"/>
 <instance part="Q4" gate="G$1" x="190.5" y="-68.58"/>
@@ -16357,11 +16399,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="241.3" y="7.62"/>
 <junction x="241.3" y="27.94"/>
 <junction x="241.3" y="48.26"/>
-<pinref part="RN2" gate="D" pin="2"/>
 <wire x1="241.3" y1="-33.02" x2="241.3" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="241.3" y="-33.02"/>
-<wire x1="241.3" y1="-35.56" x2="241.3" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="241.3" y="-35.56"/>
 <label x="254" y="-35.56" size="1.778" layer="95"/>
 <wire x1="241.3" y1="-35.56" x2="264.16" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -16372,6 +16411,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="287.02" y1="-55.88" x2="287.02" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="264.16" y="-35.56"/>
 <junction x="287.02" y="-35.56"/>
+<pinref part="RN1" gate="D" pin="2"/>
+<wire x1="152.4" y1="-50.8" x2="152.4" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-48.26" x2="241.3" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-45.72" x2="241.3" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="241.3" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="P$1"/>
@@ -16410,11 +16454,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="228.6" y="27.94"/>
 <junction x="228.6" y="7.62"/>
 <junction x="228.6" y="-12.7"/>
-<pinref part="RN2" gate="C" pin="2"/>
 <wire x1="228.6" y1="-33.02" x2="228.6" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="228.6" y="-33.02"/>
-<wire x1="228.6" y1="-38.1" x2="228.6" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="228.6" y="-38.1"/>
 <label x="254" y="-38.1" size="1.778" layer="95"/>
 <wire x1="297.18" y1="-38.1" x2="281.94" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -16425,6 +16466,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="281.94" y1="-55.88" x2="281.94" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="259.08" y="-38.1"/>
 <junction x="281.94" y="-38.1"/>
+<wire x1="228.6" y1="-38.1" x2="228.6" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-45.72" x2="165.1" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="C" pin="2"/>
+<wire x1="165.1" y1="-48.26" x2="165.1" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="228.6" y="-38.1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB14"/>
@@ -16463,11 +16509,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="215.9" y="7.62"/>
 <junction x="215.9" y="-12.7"/>
 <junction x="215.9" y="48.26"/>
-<pinref part="RN2" gate="B" pin="2"/>
 <wire x1="215.9" y1="-33.02" x2="215.9" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="215.9" y="-33.02"/>
-<wire x1="215.9" y1="-40.64" x2="215.9" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="215.9" y="-40.64"/>
 <label x="254" y="-40.64" size="1.778" layer="95"/>
 <wire x1="215.9" y1="-40.64" x2="254" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -16478,6 +16521,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="276.86" y1="-55.88" x2="276.86" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="254" y="-40.64"/>
 <junction x="276.86" y="-40.64"/>
+<wire x1="215.9" y1="-40.64" x2="215.9" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-45.72" x2="177.8" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="B" pin="2"/>
+<wire x1="177.8" y1="-48.26" x2="177.8" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="215.9" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB13"/>
@@ -16516,12 +16564,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="203.2" y="7.62"/>
 <junction x="203.2" y="27.94"/>
 <junction x="203.2" y="48.26"/>
-<pinref part="RN2" gate="A" pin="2"/>
 <wire x1="203.2" y1="-33.02" x2="203.2" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="203.2" y="-33.02"/>
-<wire x1="203.2" y1="-43.18" x2="203.2" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-43.18" x2="248.92" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="203.2" y="-43.18"/>
 <label x="254" y="-43.18" size="1.778" layer="95"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="-43.18" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
@@ -16531,6 +16576,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="271.78" y1="-55.88" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="248.92" y="-43.18"/>
 <junction x="271.78" y="-43.18"/>
+<wire x1="203.2" y1="-43.18" x2="203.2" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-45.72" x2="190.5" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="A" pin="2"/>
+<wire x1="190.5" y1="-48.26" x2="190.5" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="203.2" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB12"/>
@@ -16569,11 +16619,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="177.8" y="7.62"/>
 <junction x="177.8" y="27.94"/>
 <junction x="177.8" y="48.26"/>
-<pinref part="RN1" gate="B" pin="2"/>
-<wire x1="177.8" y1="-50.8" x2="177.8" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="177.8" y="-33.02"/>
 <wire x1="177.8" y1="-40.64" x2="177.8" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="177.8" y="-40.64"/>
 <label x="144.78" y="-40.64" size="1.778" layer="95"/>
 <wire x1="177.8" y1="-40.64" x2="134.62" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -16584,6 +16631,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="-55.88" x2="116.84" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="116.84" y="-40.64"/>
 <junction x="134.62" y="-40.64"/>
+<pinref part="RN2" gate="C" pin="2"/>
+<wire x1="215.9" y1="-50.8" x2="215.9" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-48.26" x2="177.8" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-45.72" x2="177.8" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="177.8" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB10"/>
@@ -16622,11 +16674,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="165.1" y="27.94"/>
 <junction x="165.1" y="7.62"/>
 <junction x="165.1" y="-12.7"/>
-<pinref part="RN1" gate="C" pin="2"/>
-<wire x1="165.1" y1="-50.8" x2="165.1" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="165.1" y="-33.02"/>
 <wire x1="165.1" y1="-38.1" x2="165.1" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="165.1" y="-38.1"/>
 <label x="144.78" y="-38.1" size="1.778" layer="95"/>
 <wire x1="101.6" y1="-38.1" x2="111.76" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -16637,6 +16686,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="111.76" y1="-55.88" x2="111.76" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="111.76" y="-38.1"/>
 <junction x="139.7" y="-38.1"/>
+<pinref part="RN2" gate="B" pin="2"/>
+<wire x1="228.6" y1="-50.8" x2="228.6" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-48.26" x2="165.1" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-45.72" x2="165.1" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="165.1" y="-38.1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB9"/>
@@ -16675,11 +16729,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="152.4" y="7.62"/>
 <junction x="152.4" y="27.94"/>
 <junction x="152.4" y="48.26"/>
-<pinref part="RN1" gate="D" pin="2"/>
-<wire x1="152.4" y1="-50.8" x2="152.4" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="152.4" y="-33.02"/>
 <wire x1="152.4" y1="-35.56" x2="152.4" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="152.4" y="-35.56"/>
 <label x="144.78" y="-35.56" size="1.778" layer="95"/>
 <wire x1="152.4" y1="-35.56" x2="144.78" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -16690,6 +16741,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="106.68" y1="-55.88" x2="106.68" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="106.68" y="-35.56"/>
 <junction x="144.78" y="-35.56"/>
+<pinref part="RN2" gate="A" pin="2"/>
+<wire x1="241.3" y1="-50.8" x2="241.3" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-48.26" x2="152.4" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-45.72" x2="152.4" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="152.4" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB8"/>
@@ -16729,12 +16785,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="190.5" y="7.62"/>
 <junction x="190.5" y="-12.7"/>
 <junction x="190.5" y="48.26"/>
-<pinref part="RN1" gate="A" pin="2"/>
 <wire x1="190.5" y1="-33.02" x2="190.5" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="190.5" y="-33.02"/>
-<wire x1="190.5" y1="-43.18" x2="190.5" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-43.18" x2="129.54" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="190.5" y="-43.18"/>
 <label x="144.78" y="-43.18" size="1.778" layer="95"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="-43.18" x2="121.92" y2="-43.18" width="0.1524" layer="91"/>
@@ -16744,6 +16797,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="121.92" y1="-55.88" x2="121.92" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="121.92" y="-43.18"/>
 <junction x="129.54" y="-43.18"/>
+<pinref part="RN2" gate="D" pin="2"/>
+<wire x1="203.2" y1="-50.8" x2="203.2" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-48.26" x2="190.5" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-45.72" x2="190.5" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="190.5" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB11"/>
@@ -16753,7 +16811,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="RN2" gate="D" pin="1"/>
+<pinref part="RN2" gate="A" pin="1"/>
 <pinref part="Q8" gate="G$1" pin="D"/>
 <wire x1="241.3" y1="-60.96" x2="241.3" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
@@ -16999,7 +17057,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="RN2" gate="C" pin="1"/>
+<pinref part="RN2" gate="B" pin="1"/>
 <pinref part="Q7" gate="G$1" pin="D"/>
 <wire x1="228.6" y1="-60.96" x2="228.6" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
@@ -17007,13 +17065,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$3" class="0">
 <segment>
 <pinref part="Q6" gate="G$1" pin="D"/>
-<pinref part="RN2" gate="B" pin="1"/>
+<pinref part="RN2" gate="C" pin="1"/>
 <wire x1="215.9" y1="-63.5" x2="215.9" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="RN2" gate="A" pin="1"/>
+<pinref part="RN2" gate="D" pin="1"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="203.2" y1="-60.96" x2="203.2" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
