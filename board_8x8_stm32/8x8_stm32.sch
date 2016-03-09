@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16699,6 +16699,7 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <junction x="139.7" y="-38.1"/>
 <pinref part="Q9" gate="G$1" pin="D"/>
 <wire x1="177.8" y1="-48.26" x2="177.8" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="215.9" y="-38.1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB9"/>
@@ -16753,6 +16754,7 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <junction x="276.86" y="-40.64"/>
 <pinref part="Q8" gate="G$1" pin="D"/>
 <wire x1="190.5" y1="-63.5" x2="190.5" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="203.2" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB14"/>
@@ -16864,6 +16866,7 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <junction x="248.92" y="-43.18"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="228.6" y1="-63.5" x2="228.6" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="165.1" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB12"/>
@@ -16929,7 +16932,6 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <net name="COL4" class="0">
 <segment>
 <pinref part="LED37" gate="G$1" pin="C"/>
-<wire x1="195.58" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="-33.02" x2="190.5" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-33.02" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
@@ -17067,6 +17069,7 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="60.96" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-10.16" y="60.96"/>
 </segment>
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
@@ -17643,6 +17646,7 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="73.66" x2="-15.24" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="73.66" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-10.16" y="73.66"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="VCC"/>
