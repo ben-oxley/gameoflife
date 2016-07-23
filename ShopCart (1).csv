@@ -1,0 +1,13 @@
+Line No.,Order Code,RoHS Compliant?,Notes,Qty,Manufacturer Part Number,Manufacturer / Description,Availability,Unit Price,Line Price,Discount Price
+1,2069547,YES,,8.0,"NX3008PBK","Transistor Polarity:P Channel; Continuous Drain Current Id:-230mA; Drain Source Voltage Vds:-30V; On Resistance Rds(on):2.8ohm; Rds(on) Test Voltage Vgs:-4.5V; Threshold Voltage Vgs:-90",23702,0.0420,0.34,,
+2,2533172,YES,,8.0,"2V7002KT1G","Transistor Polarity:N Channel; Continuous Drain Current Id:380mA; Drain Source Voltage Vds:60V; On Resistance Rds(on):1.19ohm; Rds(on) Test Voltage Vgs:10V; Threshold Voltage Vgs:1V; Pow",2929,0.0430,0.34,,
+3,2496765,YES,,100.0,"0402B102K160CT","Product Range:-; Capacitance:1000pF; Capacitance Tolerance:± 10%; Dielectric Characteristic:X7R; Voltage Rating:16V; Ceramic Capacitor Case:0402 [1005 Metric]; Operating Temperatu",13780,0.0029,0.29,,
+4,1296588,YES,,1.0,"MCP1700-3302E/TO","Input Voltage Min:2.3V; Input Voltage Max:6V; Output Voltage Nom.:3.3V; Output Current:250mA; Dropout Voltage Vdo:178mV; LDO Regulator Case Style:TO-92; No. of Pins:3Pins; Operating Tempera",4349,0.3510,0.35,,
+5,2060107,YES,,10.0,"EXB38V103JV","Product Range:EXB38 Series; Network Circuit Type:Isolated; No. of Elements:4Elements; Resistance:10kohm; Power Rating per Element:63mW; Resistance Tolerance:± 5%; Resistor Case Style:0",31407,0.0387,0.39,,
+6,2393634,YES,,1.0,"STM32F030C8T6","Architecture:ARM Cortex-M0; CPU Speed:48MHz; Program Memory Size:64KB; RAM Memory Size:8KB; No. of Pins:48Pins; MCU Case Style:LQFP; No. of I/O's:39I/O's; Embedded Interface Type:I2",1554,1.4000,1.40,,
+
+,,,,,,,Sub Total,3.11
+,,,,,,,Goods Total,3.11
+,,,,,,,Basic Delivery,0.00
+,,,,,,,VAT,Unknown
+,,,,,,,Total,3.11
