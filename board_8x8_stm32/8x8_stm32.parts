@@ -1,0 +1,138 @@
+Partlist
+
+Exported from 8x8_stm32.sch at 30/03/2016 00:26
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                   Package                           Library                 Sheet	Farnell Code
+
+C1                      CPOL-EUE2-4              E2-4                              rcl                     1 		47u electolytic
+C2                      C-EU050-025X075          C050-025X075                      rcl                     1 		1uF Ceramic
+C3                      C-EU050-025X075          C050-025X075                      rcl                     1 		1uF Ceramic
+C4       100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C5                      CAPACITOR0603-N          C0603-N                           passives-7351           1 		100n
+C6                      CAPACITOR0603-N          C0603-N                           passives-7351           1 		100n
+C7       100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C8       100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C9       100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C10      100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C11                     CAPACITOR0603-N          C0603-N                           passives-7351           1 		100n
+C12                     CAPACITOR0603-N          C0603-N                           passives-7351           1 		1u
+C13      100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C14      100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C15      100p           CAPACITOR0603-N          C0603-N                           passives-7351           1  		100p 
+C16                     CPOL-EUE2-4              E2-4                              rcl                     1 		47u electolytic
+IC1      STM32F0        STM32F0                  TQFP48                            Mine                    1
+J1       SWD_SHROUD     SWD_SHROUD               SWD_PTH_SHROUD                    dtb                     1
+JP1                     M08                      1X08_ROUND                        SparkFun-Connectors     1
+JP2                     M08                      1X08_ROUND                        SparkFun-Connectors     1
+JP3                     M08                      1X08_ROUND                        SparkFun-Connectors     1
+JP4                     M08                      1X08_ROUND                        SparkFun-Connectors     1
+JP5                     M06SILK_FEMALE_PTH       1X06                              SparkFun-Connectors     1
+JP6                     M02PTH                   1X02                              Mine                    1
+JP7      TC2030-SWDNL   TC2030-SWDNL             TC2030-MCP-NL                     tag-connect             1
+LED1                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED2                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED3                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED4                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED5                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED6                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED7                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED8                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED9                    LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED10                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED11                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED12                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED13                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED14                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED15                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED16                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED17                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED18                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED19                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED20                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED21                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED22                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED23                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED24                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED25                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED26                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED27                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED28                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED29                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED30                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED31                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED32                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED33                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED34                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED35                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED36                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED37                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED38                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED39                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED40                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED41                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED42                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED43                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED44                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED45                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED46                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED47                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED48                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED49                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED50                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED51                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED52                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED53                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED54                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED55                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED56                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED57                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED58                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED59                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED60                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED61                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED62                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED63                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+LED64                   LED5MM/0603              LED5MM/SMD                        dtb                     1
+Q1       BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q2       BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q3       BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q4       BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q5       BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q6       BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q7       BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q8       BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q9       BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q10      BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q11      BSS123         BSS123                   SOT23                             transistor-small-signal 1
+Q12      BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q13      BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q14      BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q15      BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q16      BSS84          BSS84                    SOT23                             transistor-small-signal 1
+Q17      MCP1700        MCP1700                  TO92-INLINE                       dtb                     1
+R1       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R2       2k2            RESISTOR0603-N           R0603-N                           passives-7351           1
+R3       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R4       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R5       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R6       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R7       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R8       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R9       DNP            RESISTOR0603-N           R0603-N                           passives-7351           1
+R10                     RESISTOR0603-N           R0603-N                           passives-7351           1
+R11                     RESISTOR0603-N           R0603-N                           passives-7351           1  		100R
+R12                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+R13                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+R14                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+R15                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+R16                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+R17                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+R18                     RESISTOR0603-N           R0603-N                           passives-7351           1 		100R
+RN3                     4R-NEXB38V               EXB38V                            resistor-dil            1 		10k
+RN4                     4R-NEXB38V               EXB38V                            resistor-dil            1 		10k
+SJ1                     JUMPER-PAD-2-NC_BY_TRACE PAD-JUMPER-2-NC_BY_TRACE_YES_SILK SparkFun-Passives       1
+SJ2                     JUMPER-PAD-2-NC_BY_TRACE PAD-JUMPER-2-NC_BY_TRACE_YES_SILK SparkFun-Passives       1
