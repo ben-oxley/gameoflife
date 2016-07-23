@@ -1,3 +1,6 @@
 [submodule "test-firmware/libopencm3"]
 	path = test-firmware/libopencm3
 	url = https://github.com/libopencm3/libopencm3.git
+[submodule "firmware/ChibiOS"]
+	path = firmware/ChibiOS
+	url = https://github.com/ChibiOS/ChibiOS.git

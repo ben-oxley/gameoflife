@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/0.47948088/PATH/delimiter=\:
+environment/project/0.47948088/PATH/operation=replace
+environment/project/0.47948088/PATH/value=/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/gcc-arm-none-eabi-5_4-2016q2/bin
+environment/project/0.47948088/append=true
+environment/project/0.47948088/appendContributed=true
