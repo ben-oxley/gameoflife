@@ -1,0 +1,46 @@
+name: Game of Life v1.0
+lsefreq: 0
+hsefreq: 0
+voltage: 3.3
+mcutype: STM32F030x6
+default: input, pushpull, startlow, pullup, highspeed
+pins:
+    COMMS_UP: pb0, input, floating
+    COMMS_DOWN: pb1, input, floating
+    COMMS_LEFT: pc14, input, floating
+    COMMS_RIGHT: pc13, input, floating
+    ROW1: pf0, input, floating
+    ROW2: pf1, input, floating
+    ROW3: pb2, input, floating
+    ROW4: pb3, input, floating
+    ROW5: pb4, input, floating
+    ROW6: pb5, input, floating
+    ROW7: pb6, input, floating
+    ROW8: pb7, input, floating
+    COL7: pb8, input, floating
+    COL6: pb9, input, floating
+    COL3: pb10, input, floating
+    COL4: pb11, input, floating
+    COL2: pb12, input, floating
+    COL1: pb13, input, floating
+    COL5: pb14, input, floating
+    COL8: pc15, input, floating
+    ROW_FET_7: pb15, output, pushpull
+    COL_FET_1: pa0, output, pushpull
+    COL_FET_2: pa1, output, pushpull
+    COL_FET_3: pa2, output, pushpull
+    COL_FET_4: pa3, output, pushpull
+    COL_FET_5: pa4, output, pushpull
+    COL_FET_6: pa5, output, pushpull
+    COL_FET_7: pa6, output, pushpull
+    COL_FET_8: pa7, output, pushpull
+    ROW_FET_5: pa8, output, pushpull
+    ROW_FET_6: pa9, output, pushpull
+    G_UART: pa10, input, floating
+    ROW_FET_8: pa11, output, pushpull
+    ROW_FET_1: pa12, output, pushpull
+    ROW_FET_2: pa13, output, pushpull
+    ROW_FET_3: pa14, output, pushpull
+    ROW_FET_4: pa15, output, pushpull
+    SHIFT_LEFT: pf6, input, floating
+    SHIFT_RIGHT: pf7, input, floating

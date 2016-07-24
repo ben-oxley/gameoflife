@@ -25,28 +25,14 @@ static THD_WORKING_AREA(waThread1, 128);
 static THD_FUNCTION(Thread1, arg) {
 
   (void)arg;
-  chRegSetThreadName("blinker1");
+  chRegSetThreadName("ledflash");
   while (true) {
-    palClearPad(GPIOC, GPIOC_LED4);
+    palClearPad(GPIOA, GPIOA_ROW_FET_1);
+    palClearPad(GPIOA, GPIOA_COL_FET_1);
     chThdSleepMilliseconds(500);
-    palSetPad(GPIOC, GPIOC_LED4);
+    palSetPad(GPIOA, GPIOA_ROW_FET_1);
+    palSetPad(GPIOA, GPIOA_COL_FET_1);
     chThdSleepMilliseconds(500);
-  }
-}
-
-/*
- * Green LED blinker thread, times are in milliseconds.
- */
-static THD_WORKING_AREA(waThread2, 128);
-static THD_FUNCTION(Thread2, arg) {
-
-  (void)arg;
-  chRegSetThreadName("blinker2");
-  while (true) {
-    palClearPad(GPIOC, GPIOC_LED3);
-    chThdSleepMilliseconds(250);
-    palSetPad(GPIOC, GPIOC_LED3);
-    chThdSleepMilliseconds(250);
   }
 }
 
@@ -66,18 +52,9 @@ int main(void) {
   chSysInit();
 
   /*
-   * Activates the serial driver 1 using the driver default configuration.
-   * PA9 and PA10 are routed to USART1.
-   */
-  sdStart(&SD1, NULL);
-  palSetPadMode(GPIOA, 9, PAL_MODE_ALTERNATE(1));       /* USART1 TX.       */
-  palSetPadMode(GPIOA, 10, PAL_MODE_ALTERNATE(1));      /* USART1 RX.       */
-
-  /*
    * Creates the blinker threads.
    */
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
-  chThdCreateStatic(waThread2, sizeof(waThread2), NORMALPRIO, Thread2, NULL);
 
   /*
    * Normal main() thread activity, in this demo it does nothing except
@@ -86,8 +63,6 @@ int main(void) {
    * driver 1.
    */
   while (true) {
-    if (palReadPad(GPIOA, GPIOA_BUTTON))
-      TestThread(&SD1);
     chThdSleepMilliseconds(500);
   }
 }

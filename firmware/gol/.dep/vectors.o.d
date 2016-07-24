@@ -9,10 +9,9 @@ build/obj/vectors.o: \
  /usr/local/gcc-arm-none-eabi-5_4-2016q2/arm-none-eabi/include/sys/_intsup.h \
  /usr/local/gcc-arm-none-eabi-5_4-2016q2/arm-none-eabi/include/sys/_stdint.h \
  ../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/vectors.h \
- ../ChibiOS/os/common/ports/ARMCMx/devices/STM32F0xx/cmparams.h \
- ../ChibiOS/os/hal/boards/ST_STM32F0_DISCOVERY/board.h \
+ ../ChibiOS/os/common/ports/ARMCMx/devices/STM32F0xx/cmparams.h board.h \
  ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f0xx.h \
- ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f051x8.h \
+ ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f030x8.h \
  ../ChibiOS/os/ext/CMSIS/include/core_cm0.h \
  ../ChibiOS/os/ext/CMSIS/include/core_cmInstr.h \
  ../ChibiOS/os/ext/CMSIS/include/core_cmFunc.h \
@@ -38,11 +37,11 @@ build/obj/vectors.o: \
 
 ../ChibiOS/os/common/ports/ARMCMx/devices/STM32F0xx/cmparams.h:
 
-../ChibiOS/os/hal/boards/ST_STM32F0_DISCOVERY/board.h:
+board.h:
 
 ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f0xx.h:
 
-../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f051x8.h:
+../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f030x8.h:
 
 ../ChibiOS/os/ext/CMSIS/include/core_cm0.h:
 

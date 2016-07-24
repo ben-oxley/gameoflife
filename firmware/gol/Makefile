@@ -87,7 +87,8 @@ include $(CHIBIOS)/os/common/ports/ARMCMx/compilers/GCC/mk/startup_stm32f0xx.mk
 # HAL-OSAL files (optional).
 include $(CHIBIOS)/os/hal/hal.mk
 include $(CHIBIOS)/os/hal/ports/STM32/STM32F0xx/platform.mk
-include $(CHIBIOS)/os/hal/boards/ST_STM32F0_DISCOVERY/board.mk
+#include $(CHIBIOS)/os/hal/boards/ST_STM32F0_DISCOVERY/board.mk
+include board.mk
 include $(CHIBIOS)/os/hal/osal/rt/osal.mk
 # RTOS files (optional).
 include $(CHIBIOS)/os/rt/rt.mk
@@ -96,7 +97,7 @@ include $(CHIBIOS)/os/rt/ports/ARMCMx/compilers/GCC/mk/port_v6m.mk
 include $(CHIBIOS)/test/rt/test.mk
 
 # Define linker script file here
-LDSCRIPT= $(STARTUPLD)/STM32F051x8.ld
+LDSCRIPT= gol_board.ld
 
 # C sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
@@ -209,3 +210,43 @@ ULIBS =
 
 RULESPATH = $(CHIBIOS)/os/common/ports/ARMCMx/compilers/GCC
 include $(RULESPATH)/rules.mk
+
+##############################################################################
+# Black Magic Probe flashing via GDB
+#
+flash: build/$(PROJECT).elf
+	arm-none-eabi-gdb --batch \
+	              -ex 'target extended-remote /dev/cu.usbmodemD6CDAEC1' \
+		      -ex 'monitor version' \
+		      -ex 'monitor swdp_scan' \
+		      -ex 'monitor connect_srst enable' \
+		      -ex 'attach 1' \
+		      -ex 'monitor connect_srst disable' \
+		      -ex 'monitor swdp_scan' \
+		      -ex 'attach 1' \
+		      -ex 'load' build/$(PROJECT).elf \
+
+debug: build/$(PROJECT).elf
+	arm-none-eabi-gdb -ex 'target extended-remote /dev/cu.usbmodemD6CDAEC1' \
+	              -ex 'monitor swdp_scan' \
+		      -ex 'attach 1' \
+		      -ex "file build/$(PROJECT).elf"
+power:
+	arm-none-eabi-gdb --batch \
+                      -ex 'target extended-remote /dev/cu.usbmodemD6CDAEC1' \
+	              -ex 'monitor tpwr enable'
+unpower:
+	arm-none-eabi-gdb --batch \
+	              -ex 'target extended-remote /dev/cu.usbmodemD6CDAEC1' \
+	              -ex 'monitor tpwr disable'
+
+run:
+	arm-none-eabi-gdb --batch \
+                      -ex 'target extended-remote /dev/cu.usbmodemD6CDAEC1' \
+	              -ex 'monitor swdp_scan' \
+		      -ex 'attach 1' \
+		      -ex 'run'
+
+#
+# End BMP flashing
+#################################

@@ -14,10 +14,9 @@ build/obj/hal.o: ../ChibiOS/os/hal/src/hal.c \
  ../ChibiOS/os/rt/include/chlicense.h \
  ../ChibiOS/os/rt/include/chsystypes.h \
  ../ChibiOS/os/rt/ports/ARMCMx/chcore.h \
- ../ChibiOS/os/common/ports/ARMCMx/devices/STM32F0xx/cmparams.h \
- ../ChibiOS/os/hal/boards/ST_STM32F0_DISCOVERY/board.h \
+ ../ChibiOS/os/common/ports/ARMCMx/devices/STM32F0xx/cmparams.h board.h \
  ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f0xx.h \
- ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f051x8.h \
+ ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f030x8.h \
  ../ChibiOS/os/ext/CMSIS/include/core_cm0.h \
  ../ChibiOS/os/ext/CMSIS/include/core_cmInstr.h \
  ../ChibiOS/os/ext/CMSIS/include/core_cmFunc.h \
@@ -60,12 +59,10 @@ build/obj/hal.o: ../ChibiOS/os/hal/src/hal.c \
  ../ChibiOS/os/hal/include/i2s.h ../ChibiOS/os/hal/include/icu.h \
  ../ChibiOS/os/hal/include/mac.h ../ChibiOS/os/hal/include/mii.h \
  ../ChibiOS/os/hal/include/pwm.h ../ChibiOS/os/hal/include/rtc.h \
- ../ChibiOS/os/hal/include/serial.h \
- ../ChibiOS/os/hal/ports/STM32/LLD/USARTv2/serial_lld.h \
- ../ChibiOS/os/hal/include/sdc.h ../ChibiOS/os/hal/include/spi.h \
- ../ChibiOS/os/hal/include/uart.h ../ChibiOS/os/hal/include/usb.h \
- ../ChibiOS/os/hal/include/wdg.h ../ChibiOS/os/hal/include/st.h \
- ../ChibiOS/os/hal/include/mmc_spi.h \
+ ../ChibiOS/os/hal/include/serial.h ../ChibiOS/os/hal/include/sdc.h \
+ ../ChibiOS/os/hal/include/spi.h ../ChibiOS/os/hal/include/uart.h \
+ ../ChibiOS/os/hal/include/usb.h ../ChibiOS/os/hal/include/wdg.h \
+ ../ChibiOS/os/hal/include/st.h ../ChibiOS/os/hal/include/mmc_spi.h \
  ../ChibiOS/os/hal/include/serial_usb.h
 
 ../ChibiOS/os/hal/include/hal.h:
@@ -104,11 +101,11 @@ chconf.h:
 
 ../ChibiOS/os/common/ports/ARMCMx/devices/STM32F0xx/cmparams.h:
 
-../ChibiOS/os/hal/boards/ST_STM32F0_DISCOVERY/board.h:
+board.h:
 
 ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f0xx.h:
 
-../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f051x8.h:
+../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/stm32f030x8.h:
 
 ../ChibiOS/os/ext/CMSIS/include/core_cm0.h:
 
@@ -233,8 +230,6 @@ mcuconf.h:
 ../ChibiOS/os/hal/include/rtc.h:
 
 ../ChibiOS/os/hal/include/serial.h:
-
-../ChibiOS/os/hal/ports/STM32/LLD/USARTv2/serial_lld.h:
 
 ../ChibiOS/os/hal/include/sdc.h:
 

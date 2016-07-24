@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 1
 
 
    1              		.syntax unified
@@ -18,14 +18,14 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   15              		.file	"chmemcore.c"
   16              		.text
   17              	.Ltext0:
-  18              		.section	.gnu.lto_.profile.d2062dd5527118da,"",%progbits
+  18              		.section	.gnu.lto_.profile.4b72e39ca46753b0,"",%progbits
   19 0000 789C6361 		.ascii	"x\234ca`d`a`\000\222*\012\000\000\322\000O"
   19      60646061 
   19      6000922A 
   19      0A0000D2 
   19      004F
   20              		.text
-  21              		.section	.gnu.lto_.icf.d2062dd5527118da,"",%progbits
+  21              		.section	.gnu.lto_.icf.4b72e39ca46753b0,"",%progbits
   22 0000 789C6361 		.ascii	"x\234ca`d\000\0015\006\004`cX\377q\326~>\246\275\017"
   22      60640001 
   22      35060460 
@@ -41,7 +41,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   24      00722712 
   24      AC
   25              		.text
-  26              		.section	.gnu.lto_.jmpfuncs.d2062dd5527118da,"",%progbits
+  26              		.section	.gnu.lto_.jmpfuncs.4b72e39ca46753b0,"",%progbits
   27 0000 789C6361 		.ascii	"x\234ca`d\000\001!\006\004`\001bVFF\306z6\020\301\016"
   27      60640001 
   27      21060460 
@@ -50,7 +50,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   28 0017 E401000B 		.ascii	"\344\001\000\013\210\0012"
   28      880132
   29              		.text
-  30              		.section	.gnu.lto_.inline.d2062dd5527118da,"",%progbits
+  30              		.section	.gnu.lto_.inline.4b72e39ca46753b0,"",%progbits
   31 0000 789C6361 		.ascii	"x\234ca`d\000\201d\006\004`a``ead`bY \317\300\266@\236"
   31      60640081 
   31      64060460 
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   31      61646062 
   32 001b 0924C6CA 		.ascii	"\011$\306\312\300\307\313\310\310\240\000T\315,t\240"
   32      C0C7CBC8 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 2
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 2
 
 
   32      C8A00054 
@@ -75,7 +75,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   34      F86E0A
   35 004f 1C       		.ascii	"\034"
   36              		.text
-  37              		.section	.gnu.lto_.pureconst.d2062dd5527118da,"",%progbits
+  37              		.section	.gnu.lto_.pureconst.4b72e39ca46753b0,"",%progbits
   38 0000 789C6361 		.ascii	"x\234ca`d\340b```a\220`\335\305\310&\301\316\002\000"
   38      6064E062 
   38      60606061 
@@ -83,7 +83,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   38      C826C1CE 
   39 0016 06D40115 		.ascii	"\006\324\001\025"
   40              		.text
-  41              		.section	.gnu.lto__core_init.d2062dd5527118da,"",%progbits
+  41              		.section	.gnu.lto__core_init.4b72e39ca46753b0,"",%progbits
   42 0000 789C7552 		.ascii	"x\234uR\317O\023A\024\236o\246t\267J\203\027Oz\300\304"
   42      CF4F1341 
   42      149E6FA6 
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   48      C9AE294D 
   48      6BF9E987 
   48      237ADA
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 3
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 3
 
 
   49 0088 874BF440 		.ascii	"\207K\364@\012#5\205.A\260\315\261\257\357\223\3520"
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   59      8B
   60 0154 39944413 		.ascii	"9\224D\023\225j\334T\222\246\330\306\230\373Mq1\011"
   60      956ADC54 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 4
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 4
 
 
   60      92A6D8C6 
@@ -235,10 +235,10 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   71      CE6F15AA 
   71      1AD2
   72              		.text
-  73              		.section	.gnu.lto_chCoreAlloc.d2062dd5527118da,"",%progbits
+  73              		.section	.gnu.lto_chCoreAlloc.4b72e39ca46753b0,"",%progbits
   74 0000 789C9554 		.ascii	"x\234\225T\335KTQ\020?s\317\375X\327u\253\327\360A)"
   74      DD4B5451 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 5
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 5
 
 
   74      103F73CF 
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   86 00d1 0C0CF7C7 		.ascii	"\014\014\367\307\333{\247\334[\232\311N\314\347\213"
   86      DB7BA7DC 
   86      5B9AC94E 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 6
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 6
 
 
   86      CCE78B
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
   97      2734897A 
   98 01a9 DF2093D9 		.ascii	"\337 \223\331\253\327\307SU\344\0117!\023\337\267@e"
   98      ABD7C753 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 7
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 7
 
 
   98      55E40937 
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  109      62360191 
  109      57E18D
  110 0282 CB8571C9 		.ascii	"\313\205q\311:\317`s\340\177\200\343\265Z\275#vE\272"
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 8
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 8
 
 
  110      3ACF6073 
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  122 035d E70F9587 		.ascii	"\347\017\225\207\020\2615\011QR\034,\015\231{\017\346"
  122      10B13509 
  122      51521C2C 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 9
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 9
 
 
  122      0D997B0F 
@@ -493,7 +493,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  124      0542810F 
  124      E9
  125              		.text
- 126              		.section	.gnu.lto_chCoreAllocI.d2062dd5527118da,"",%progbits
+ 126              		.section	.gnu.lto_chCoreAllocI.4b72e39ca46753b0,"",%progbits
  127 0000 789C9552 		.ascii	"x\234\225RMkSA\024\235;3\311K^\222\266k\311\"\202\245"
  127      4D6B5341 
  127      149D3B33 
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  135      5B9F
  136 00a6 729EE09C 		.ascii	"r\236\340\234R\031\365\366\303\354h\251b\311\274\340"
  136      5219F5F6 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 10
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 10
 
 
  136      C3EC68A9 
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  147      7337DEB8 
  147      6DD08F5E 
  148 017b 37088B08 		.ascii	"7\010\213\010l\001\327\246\321\016\002\221\227)\326"
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 11
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 11
 
 
  148      6C01D7A6 
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  159      6422128E 
  159      C4
  160 024f C6A26391 		.ascii	"\306\242c\221\361D4\024a2\031?\037\205\211_\370M\027"
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 12
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 12
 
 
  160      F1443414 
@@ -667,7 +667,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  160      F84D17
  161 0262 67       		.ascii	"g"
  162              		.text
- 163              		.section	.gnu.lto_chCoreGetStatusX.d2062dd5527118da,"",%progbits
+ 163              		.section	.gnu.lto_chCoreGetStatusX.4b72e39ca46753b0,"",%progbits
  164 0000 789C6D91 		.ascii	"x\234m\221=K\003A\020\206gv\357#\010\212\275)\"b\221"
  164      3D4B0341 
  164      10866776 
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  173      552A98B9 
  174 00bc 980E09F0 		.ascii	"\230\016\011\360\244\224th\032g:g\006\037&0\034\332"
  174      A4947468 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 13
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 13
 
 
  174      1A673A67 
@@ -766,7 +766,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  183      0DBF175B 
  183      91AB
  184              		.text
- 185              		.section	.gnu.lto_.symbol_nodes.d2062dd5527118da,"",%progbits
+ 185              		.section	.gnu.lto_.symbol_nodes.4b72e39ca46753b0,"",%progbits
  186 0000 789C55CB 		.ascii	"x\234U\313K\021\2000\020\203\341?[j\000\005\340\017"
  186      4B118030 
  186      1083E13F 
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  187      D65C32F3 
  187      65
  188 0023 32201622 		.ascii	"2 \026\"V\345\260~\020\365\226\031\362-\246X\362&\225"
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 14
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 14
 
 
  188      56E5B07E 
@@ -792,7 +792,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  189      973C75C2 
  190 004b 7A2815BC 		.ascii	"z(\025\274"
  191              		.text
- 192              		.section	.gnu.lto_.refs.d2062dd5527118da,"",%progbits
+ 192              		.section	.gnu.lto_.refs.4b72e39ca46753b0,"",%progbits
  193 0000 789C0DC9 		.ascii	"x\234\015\311\301\021\300 \020\003\261\265\317\\\302"
  193      C111C020 
  193      1003B1B5 
@@ -808,7 +808,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  195      E000
  196 0030 C6       		.ascii	"\306"
  197              		.text
- 198              		.section	.gnu.lto_.decls.d2062dd5527118da,"",%progbits
+ 198              		.section	.gnu.lto_.decls.4b72e39ca46753b0,"",%progbits
  199 0000 789CA554 		.ascii	"x\234\245TkL\024W\024\236\263\263\362\334]\015\261\215"
  199      6B4C1457 
  199      149EB3B3 
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  204      7B66EFBD 
  204      73CEF77D 
  204      E79C7BAF 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 15
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 15
 
 
  205 006f 863C5D7E 		.ascii	"\206<]~\014\263^\3050\2318}\201\3174\\[\305\310\217"
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  216      159071FF 
  216      93B26586 
  216      03023E59 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 16
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 16
 
 
  216      82
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  228 0213 0A13C4B5 		.ascii	"\012\023\304\265\254\321\342T\255\262\024Q\032E)\016"
  228      ACD1E254 
  228      ADB21451 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 17
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 17
 
 
  228      1A45290E 
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  240 02f0 DE573DD8 		.ascii	"\336W=\330\376\307&V&\310\326\357'\004g\220\340\224"
  240      FEC72656 
  240      26C8D6EF 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 18
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 18
 
 
  240      27046790 
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  251      1864EF0E 
  251      C9BB837A 
  251      0F4D551E 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 19
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 19
 
 
  252 03d1 D589F799 		.ascii	"\325\211\367\231\0179A\203\2237\375\0026I\233\237\004"
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  262      D794307D 
  263 04a0 662239BB 		.ascii	"f\"9\273\312\217\375IMa**wU\353\330\035\342d\363\251"
  263      CA8FFD49 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 20
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 20
 
 
  263      4D612A2A 
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  274      3BA3B844 
  274      47028773 
  274      A38D
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 21
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 21
 
 
  275 0583 5B633285 		.ascii	"[c2\205\030\023bC\354qvs\210\331\030m\015Y\310/\010"
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  286      C3C23760 
  286      00EDFBFA 
  286      45B11885 
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 22
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 22
 
 
  287 0654 758CB13A 		.ascii	"u\214\261:\214\3216\334\010\011\353\264F\333\367\306"
@@ -1280,7 +1280,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  290      1FE2F29C 
  290      35
  291              		.text
- 292              		.section	.gnu.lto_.symtab.d2062dd5527118da,"",%progbits
+ 292              		.section	.gnu.lto_.symtab.4b72e39ca46753b0,"",%progbits
  293 0000 5F636F72 		.ascii	"_core_init\000"
  293      655F696E 
  293      697400
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  313 0063 00       		.ascii	"\000"
  314 0064 00       		.ascii	"\000"
  315 0065 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 23
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 23
 
 
  315      00000000 
@@ -1377,7 +1377,7 @@ ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 1
  338              		.comm	__gnu_lto_v1,1,1
  339              		.comm	__gnu_lto_slim,1,1
  340              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccz46cPN.s 			page 24
+ARM GAS  /var/folders/d3/p12xj6d96hx5ptyrkl_lzds40000gn/T//ccQYRgKq.s 			page 24
 
 
 DEFINED SYMBOLS
